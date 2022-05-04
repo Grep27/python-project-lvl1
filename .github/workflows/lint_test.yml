@@ -1,12 +1,12 @@
 
-name: flake8-test
+name: lint_test
 
 on:
   - push
   - pull_request
 
 jobs:
-  flake8-test:
+  lint_test:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
